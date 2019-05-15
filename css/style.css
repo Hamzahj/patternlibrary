@@ -19,6 +19,66 @@ body {
   line-height: 1.6;
 }
 
+::selection {
+  color: #fff;
+  background-color: #8cc63e;
+}
+
+header {
+  background: #fcfcfc;
+  box-shadow: 0 0 4px 0px #dadada;
+  border-radius: 3px;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 15px;
+  overflow: auto;
+}
+header h1 {
+  float: left;
+  font-size: 160%;
+  width: 50%;
+  margin-top: 6px;
+  text-align: right;
+  color: grey;
+}
+
+nav {
+  width: 20%;
+  float: left;
+  background: #7fb535;
+}
+nav.fixed {
+  position: fixed;
+  max-width: 360px;
+  top: 15px;
+}
+nav ul a {
+  text-decoration: none;
+  color: #fcfcfc;
+  background: #1edb4d;
+  border-top: 1px solid #7fb535;
+  border-bottom: 1px solid #7fb535;
+  margin-bottom: -1px;
+  padding: 10px 15px;
+  display: block;
+  transition: all 0.5s ease-in-out;
+}
+nav ul a.active, nav ul a.active:hover {
+  color: #8cc63e;
+  background: #f7f7f7;
+  margin-left: 10px;
+}
+nav ul a:hover {
+  background: #7fb535;
+  color: #fcfcfc;
+}
+nav ul li:last-child a {
+  margin-bottom: 0;
+}
+
+
+
+
 
 
 
