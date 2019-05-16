@@ -21,10 +21,11 @@ body {
 
 
 
+
 header {
-  background: #fcfcfc;
+  background: white;
   box-shadow: 0 0 4px 0px #dadada;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 15px;
   width: 100%;
   margin-bottom: 15px;
@@ -32,13 +33,12 @@ header {
 }
 header h1 {
   float: left;
-  font-size: 160%;
+  font-size: 300%;
   width: 50%;
   margin-top: 6px;
-  text-align: right;
+
   color: grey;
 }
-
 nav {
   width: 20%;
   float: left;
@@ -97,12 +97,19 @@ section article h1 {
 }
 section article h2 {
   font-size: 120%;
-  margin-bottom: 15px;
-  padding: 5px;
+ padding: 0 10px 5px 10px;
+  margin: 0 15px 1.5%;
   border-bottom: 1px solid #e2e3e4;
   color: #58595b;
 
 
+}
+section article p {
+ 
+  color: grey;
+  padding: 0 10px 5px 10px;
+  margin: 0 15px 1.5%;
+  border-bottom: 1px solid #e2e3e4;
 }
 section article .component {
   margin: 0 0 1.5% 1.5%;
