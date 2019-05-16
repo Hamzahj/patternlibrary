@@ -532,10 +532,6 @@ section article .component.sixCol {
 }
 
 
-
-
-
-
 section article .component:hover, section article .component:focus {
   box-shadow: 0 0 8px 0px #aaa;
   transform: scale(1.02);
