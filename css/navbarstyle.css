@@ -38,14 +38,16 @@ header h1 {
   color: grey;
 }
 
+
 nav {
   width: 20%;
   float: left;
   background: #7fb535;
+     list-style-type: none;
 }
 nav.fixed {
   position: fixed;
-  max-width: 360px;
+  max-width: 260px;
   top: 15px;
 }
 
@@ -205,7 +207,9 @@ section article .component.open {
 }
 
 
-
+#primary{
+ 
+}
 
 
 
