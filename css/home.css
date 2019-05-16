@@ -77,6 +77,7 @@ nav ul a:hover {
 }
 
 
+
 section {
   width: 80%;
   float: right;
@@ -204,135 +205,6 @@ section article .component.open {
   box-shadow: 0 0 15px 0px #888;
   z-index: 1000;
 }
-
-
-
-.row, 
-.column {
-    box-sizing: border-box;
-}
-
-.row:before,
-.row:after {
-    content: " ";
-    display: table;
-}
-
-.row:after {
-    clear: both;
-}
-
-.column {
-    position: relative;
-    float: left;
-    display: block;
-}
-
-.column + .column {
-    margin-left: 1.6%;
-}
-
-.column-1 {
-    width: 7%;
-}
-
-.column-2 {
-    width: 15%;
-}
-
-.column-3 {
-    width: 24%;
-}
-
-.column-4 {
-    width: 32%;
-}
-
-.column-5 {
-    width: 40%;
-}
-
-.column-6 {
-    width: 49%;
-}
-
-.column-7 {
-    width: 57%;
-}
-
-.column-8 {
-    width: 66%;
-}
-
-.column-9 {
-    width: 75%;
-}
-
-.column-10 {
-    width: 83%;
-}
-
-.column-11 {
-    width: 91%;
-}
-
-.column-12 {
-    width: 100%;
-    margin-left: 0;
-}
-
-@media only screen and (max-width: 550px) {
-    .column-1, 
-    .column-2, 
-    .column-3, 
-    .column-4, 
-    .column-5, 
-    .column-6, 
-    .column-7, 
-    .column-8, 
-    .column-9, 
-    .column-10, 
-    .column-11, 
-    .column-12 {
-        float: none;
-        width: auto;
-    }
-  
-    .column + .column {
-        margin-left: 0;
-    }
-}
-
-
-
-body {
-    padding: 20px;
-}
-
-.column {
-    background: #74ef70;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    color: black;
-    padding: 5px;
-    min-height: 30px;
-    text-align: center;
-}
-
-.row {
-    margin-bottom: 10px;
-}
-
-.p {
-  font-size: 14px;
-  text-align: center;
-  padding-top: 100px;
-}
-
-
-
-
-
 
 
 

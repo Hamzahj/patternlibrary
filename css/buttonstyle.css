@@ -311,6 +311,119 @@ nav ul a:hover {
   
 }
 
+.btnroundgreen{
+  
+  box-sizing: border-box;
+  background-color: white;
+  border: 2px solid #83eaa2;
+  border-radius: 10em;
+  color:  #83eaa2;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin-left: 30px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  
+}
+
+.btnroundblue{
+  
+  box-sizing: border-box;
+  background-color: white;
+  border: 2px solid #3aa9e0;
+  border-radius: 10em;
+  color:  #3aa9e0;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin-left: 30px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  
+}
+
+
+
+.btnroundorange{
+  
+  box-sizing: border-box;
+  background-color: white;
+  border: 2px solid  #edb828;
+  border-radius: 10em;
+  color:   #edb828;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin-left: 30px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  
+}
+
+
+.btnroundred{
+  
+  box-sizing: border-box;
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 10em;
+  color:  red;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin-left: 30px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 pre code {
   background-color: #eee;
