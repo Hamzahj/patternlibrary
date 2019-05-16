@@ -1,0 +1,511 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  position: relative;
+  background: #f7f7f7;
+  color: #9b9da0;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 15px;
+  font-family: 'Nunito', sans-serif;
+
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+
+
+header {
+  background: #fcfcfc;
+  box-shadow: 0 0 4px 0px #dadada;
+  border-radius: 3px;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 15px;
+  overflow: auto;
+}
+header h1 {
+  float: left;
+  font-size: 160%;
+  width: 50%;
+  margin-top: 6px;
+  text-align: right;
+  color: grey;
+}
+
+nav {
+  width: 20%;
+  float: left;
+  background: #7fb535;
+}
+nav.fixed {
+  position: fixed;
+  max-width: 360px;
+  top: 15px;
+}
+
+nav ul a.active, nav ul a.active:hover {
+  color: #8cc63e;
+  background: #f7f7f7;
+  margin-left: 10px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #fcfcfc;
+  background: #1edb4d;
+  border-top: 1px solid #7fb535;
+  border-bottom: 1px solid #7fb535;
+  margin-bottom: -1px;
+  padding: 10px 15px;
+  display: block;
+  transition: all 0.5s ease-in-out;
+}
+
+nav ul li:last-child a {
+  margin-bottom: 0;
+}
+nav ul a:hover {
+  background: #7fb535;
+  color: #fcfcfc;
+}
+
+
+.btn  {
+  box-sizing: border-box;
+  background-color: #83eaa2;
+  border: 2px solid #83eaa2n;
+  border-radius: 0.6em;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin-left: 30px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.btn:hover, .btn:focus {
+  color: #fff;
+  outline: 0;
+  
+}
+
+.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    background-color: #83eaa2;
+}
+.first:hover {
+  box-shadow: 0 0 40px 40px #e74c3c inset;
+}
+
+
+.two {
+  border-color: #f1c40f;
+  color: #fff;
+  background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  transition: background 300ms ease-in-out;
+}
+.two:hover {
+  background-position: 0;
+}
+
+
+.btnempty{
+  
+  box-sizing: border-box;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 0.6em;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin-left: 30px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  
+}
+
+
+.btnblue{
+  
+  box-sizing: border-box;
+  background-color: #3aa9e0;
+  border: 2px solid #83eaa2n;
+  border-radius: 0.6em;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin-left: 30px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  
+}
+
+.btnorange{
+  
+  box-sizing: border-box;
+  background-color: #edb828;
+  border: 2px solid #83eaa2n;
+  border-radius: 0.6em;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin-left: 30px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  
+}
+
+
+.btnred{
+  
+  box-sizing: border-box;
+  background-color: #ed3e28;
+  border: 2px solid #83eaa2n;
+  border-radius: 0.6em;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin-left: 30px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  
+}
+
+.btnredo{
+  
+  box-sizing: border-box;
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 0.6em;
+  color: red;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin-left: 30px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  
+}
+
+
+.btngreeno{
+  
+  box-sizing: border-box;
+  background-color: white;
+  border: 2px solid #83eaa2;
+  border-radius: 0.6em;
+  color: #83eaa2;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin-left: 30px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  
+}
+
+.btnorangeo{
+  
+  box-sizing: border-box;
+  background-color: white;
+  border: 2px solid #edb828;
+  border-radius: 0.6em;
+  color: #edb828;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin-left: 30px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  
+}
+
+.btnblueo{
+  
+  box-sizing: border-box;
+  background-color: white;
+  border: 2px solid #3aa9e0;
+  border-radius: 0.6em;
+  color: #3aa9e0;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin-left: 30px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  
+}
+
+
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section {
+  width: 80%;
+  float: right;
+}
+section article {
+  position: relative;
+  clear: both;
+  margin-bottom: 15px;
+}
+section article h1 {
+  width: 98.5%;
+  font-size: 125%;
+  color: #8cc63e;
+  padding: 0 10px 5px 10px;
+  margin: 0 15px 1.5%;
+  cursor: pointer;
+  border-bottom: 1px solid #e2e3e4;
+}
+section article h2 {
+  font-size: 120%;
+  margin-bottom: 15px;
+  padding: 5px;
+  border-bottom: 1px solid #e2e3e4;
+  color: #58595b;
+
+
+}
+section article .component {
+  margin: 0 0 1.5% 1.5%;
+  overflow: auto;
+  background: #fcfcfc;
+  box-shadow: 0 0 4px 0px #dadada;
+  border-radius: 3px;
+  padding: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+section article .component.oneCol {
+  width: 98.5%;
+}
+section article .component.twoCol {
+  width: 48.5%;
+}
+section article .component.fourCol {
+  width: 23.5%;
+}
+section article .component.fiveCol {
+  width: 18.5%;
+}
+section article .component.sixCol {
+  width: 15.166%;
+}
+
+
+
+
+
+
+section article .component:hover, section article .component:focus {
+  box-shadow: 0 0 8px 0px #aaa;
+  transform: scale(1.02);
+}
+section article .component:last-child {
+  margin-bottom: 30px;
+}
+section article .component .element-code,
+section article .component .element-details {
+  width: 49%;
+  float: left;
+  margin-bottom: 15px;
+  display: none;
+}
+section article .component .element-code {
+  float: right;
+}
+section article .component code {
+  display: block;
+  padding: 10px;
+  background-color: #111;
+  color: #eee;
+}
+section article .component code ol {
+  margin-left: 25px;
+}
+section article .component code ol li {
+  list-style-type: decimal;
+  padding-left: 7px;
+  border-left: 1px solid #555;
+}
+section article .component code ol li.indent {
+  padding-left: 20px;
+}
+section article .component code ol li .selector, section article .component code ol li .html-tag {
+  color: #E6484D;
+}
+section article .component code ol li .property, section article .component code ol li .html-attr {
+  color: #8cc63e;
+}
+section article .component code ol li .value {
+  color: #E6BB38;
+}
+
+section article .component .more {
+  display: none;
+}
+section article .component .more-trigger {
+  display: block;
+  text-align: center;
+  padding-top: 6px;
+  margin: 15px 0 -6px 0;
+  border-top: 1px solid #e2e3e4;
+  color: #9b9da0;
+  text-decoration: none;
+  clear: both;
+}
+section article .component .more-trigger:hover {
+  color: #428bca;
+}
+section article .component.open {
+  position: absolute;
+  transform: translate(15px, 15px);
+  width: 95%;
+  box-shadow: 0 0 15px 0px #888;
+  z-index: 1000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
