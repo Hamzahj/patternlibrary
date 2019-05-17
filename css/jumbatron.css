@@ -362,6 +362,54 @@ h5{
 
 
 
+form {
+  display: flex;
+  align-items: center;
+}
+
+.boxes {
+  width: 550px;
+  padding: 0px 10px 10px 10px;
+  background: grey;
+  border-radius: 5px 5px 1px 1px;
+  float: right;
+  float: left;
+   display: inline-block;
+  position: absolute;
+  margin-left:100px; 
+
+}
+
+.input {
+  width: 75%;
+  height: 44px;
+  
+  border-radius: 5px 0 0 5px;
+  border: none;
+  
+  font-family: inherit;
+  color: #737373;
+  letter-spacing: 1px;
+  text-indent: 5%;
+}
+
+.button {
+  width: 25%;
+  height: 46px;
+  
+  
+  
+  border: none;
+  
+  font-family: inherit;
+  font-weight: bold;
+  color: inherit;
+  letter-spacing: 1px;
+  
+  cursor: pointer;
+}
+
+
 
 
 
