@@ -19,7 +19,7 @@ A pattern library is a solution to help overcome the issue of building a website
 
 [Mailchimp](https://ux.mailchimp.com/patterns/color) is just one example of a pattern library which contains many web functional elements such as typography to grid systems. Mailchimp is popular with the web design community, stats from [semrush](www.semrush.com) indicate that the average visits a year since April 2019 have been around 16.5 million for mail chimp, indicating that the actual pattern library on UX mail chimp has a potential 16.5 million consumers.
 
-![](images/image-1.jpg)
+![](images/1.png)
 
 
 
