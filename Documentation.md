@@ -1,4 +1,8 @@
+
 # Pattern library
+
+Github website link: hamzahj.github.io
+Github repository link : https://github.com/Hamzahj/patternlibrary
 
 ## Background
 
@@ -164,49 +168,27 @@ The header tag would be where the navigation bar would be stored, in each page a
 
 Overall during the whole process of creating the pattern library, many issues were encountered but soon resolved. Some components stopped working as the whole process was being built on cloud9, an online service for coding. Cloud9 at times became buggy and stopped working, however despite this the overall pattern library was simple to build. Once this was completed, the was hosted on github pages. &quot;hamzahj.github.io&quot;
 
-Three people were asked simple questions about the completed pattern library and these answers were taken into consideration for future references and how it can be improved.
-
-**Is the library documentation simple to understand?**
-
+Four people were asked simple questions about the completed pattern library and these answers were taken into consideration for future references and how it can be improved.
+Is the library documentation simple to understand? 
 Participant 1: yes
-
+Participant 2: yes
+Participant 3: yes 
+Participant 4: yes
+Was it easy to download the files for your html pages?
 Participant 1: yes
-
+Participant 2: yes
+Participant 3: yes 
+Participant 4: yes
+Did you find that adding the elements to your website were easy?
 Participant 1: yes
+Participant 2: yes but the grid was slightly hard to implement
+Participant 3: yes
+Participant 4: yes
 
-Participant 1: yes
-
-**Was it easy to download the files for your html pages?**
-
-Participant 1: yes
-
-Participant 1: yes
-
-Participant 1: yes
-
-Participant 1: yes
-
-**Did you find that adding the elements to your website were easy?**
-
-Participant 1: yes
-
-Participant 1: yes but the grid was slightly hard to implement
-
-Participant 1: yes
-
-Participant 1: yes
-
-**Was there anything you didn&#39;t like in the library?**
-
+Was there anything you didn’t like in the library?
 Participant 1: No
+Participant 2: colour scheme 
+Participant 3: No but would have liked if a sass file was there
+Participant 4: no
 
-Participant 1: colour scheme
-
-Participant 1: No but would have liked if a sass file was there
-
-Participant 1: no
-
-
-Github website link: hamzahj.github.io
-Github repository link : https://github.com/Hamzahj/patternlibrary
 
