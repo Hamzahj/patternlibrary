@@ -13,7 +13,7 @@ The main purpose is to produce a pattern library from foundation and establish a
 ## What is a pattern library?
 
 A pattern library is a solution to help overcome the issue of building a website from scratch each time, as this can get frustrating for some and can be tremendously time consuming as various elements need to be re-created. In this 
-[https://medium.com/@whatjackhasmade/pattern-libraries-abcc45c6144c](article) it says a pattern library often contains snippets of html and that pattern libraries mainly focus in interface design.
+[article](https://medium.com/@whatjackhasmade/pattern-libraries-abcc45c6144c) it says a pattern library often contains snippets of html and that pattern libraries mainly focus in interface design.
 
 ## Example of a pattern library
 
