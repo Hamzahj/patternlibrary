@@ -22,9 +22,9 @@ body {
 
 
 header {
-  background: #fcfcfc;
+  background: white;
   box-shadow: 0 0 4px 0px #dadada;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 15px;
   width: 100%;
   margin-bottom: 15px;
@@ -32,13 +32,12 @@ header {
 }
 header h1 {
   float: left;
-  font-size: 160%;
+  font-size: 300%;
   width: 50%;
   margin-top: 6px;
-  text-align: right;
+
   color: grey;
 }
-
 nav {
   width: 20%;
   float: left;
