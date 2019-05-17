@@ -17,7 +17,7 @@ A pattern library is a solution to help overcome the issue of building a website
 
 ## Example of a pattern library
 
-[https://ux.mailchimp.com/patterns/color](Mailchimp) is just one example of a pattern library which contains many web functional elements such as typography to grid systems. Mailchimp is popular with the web design community, stats from [www.semrush.com](semrush) indicate that the average visits a year since April 2019 have been around 16.5 million for mail chimp, indicating that the actual pattern library on UX mail chimp has a potential 16.5 million consumers.
+[Mailchimp](https://ux.mailchimp.com/patterns/color) is just one example of a pattern library which contains many web functional elements such as typography to grid systems. Mailchimp is popular with the web design community, stats from [semrush](www.semrush.com) indicate that the average visits a year since April 2019 have been around 16.5 million for mail chimp, indicating that the actual pattern library on UX mail chimp has a potential 16.5 million consumers.
 
 
 
@@ -33,11 +33,11 @@ The library will be implemented from scratch as this is the best way to approach
 
 # Design Process method
 
-The design process method will help determine how to approach, creating the library along with creating the elements. [https://blog.testlodge.com/software-development-life-cycle/](Software development life cycle) is a process that will allow for the whole project to be completed in a short amount of time while simultaneously being efficient. First the process will need to be analysed then effectively a method will need to be applied in conjunction.
+The design process method will help determine how to approach, creating the library along with creating the elements. [Software development life cycle](https://blog.testlodge.com/software-development-life-cycle/) is a process that will allow for the whole project to be completed in a short amount of time while simultaneously being efficient. First the process will need to be analysed then effectively a method will need to be applied in conjunction.
 
 The process steps are:
 
-1. Identify the [current problems](https://stackify.com/sdlc-phases-identify-problems/)- Pattern library
+1. Identify the [https://stackify.com/sdlc-phases-identify-problems/](current problems )- Pattern library
 2. Plan- Plan out each phase using the water fall method
 3. Design- Look at other current design trends and design visual elements
 4. Build- build the library
@@ -57,7 +57,7 @@ It will be essential to ensure that everything is working and is at a high stand
 
 ## Technical testing
 
-For technical testing the html as well as any styling will need to be of high standard, so to check for any errors the [https://validator.w3.org/](validater from w3) website will be used to ensure there are no errors within the html. This will allow for any mistakes such as misspelled letters and various other issues to be eradicated, making the code itself sustainable.
+For technical testing the html as well as any styling will need to be of high standard, so to check for any errors the [ validater from w3]( https://validator.w3.org/) website will be used to ensure there are no errors within the html. This will allow for any mistakes such as misspelled letters and various other issues to be eradicated, making the code itself sustainable.
 
 Another way that the technical testing will take place is testing the code on different browsers such as google chrome, Edge and safari. The reason for this is due to different internet browsers interpreting the code in entirely different ways, for example nav bars and other elements might potentially not function on certain browsers. After each phase of the code is complete; for example, a html page, then tests will be conducted on each browser allowing for efficient workflow. After the pattern library is completed the final product will also be tested on all internet browsers.
 
@@ -93,11 +93,11 @@ The specification for the pattern library was simple and didn&#39;t consist of m
 
 To start off the implementation process, a design phase was a requirement, as this would help visualise what the pattern library could possible look like. Simple wire frames would allow for this to be possible as wireframing techniques would give a clearer concept of how to build the library. Wire frames would determine and help plan where specific elements such as the navbar or instructions would go.
 
-Many nav bars were looked and designs were analysed from[https://mdbootstrap.com/docs/jquery/navigation/sidenav/](mdbootstrap) and it mentions _&quot;By virtue of its clarity and simplicity it remarkably increases User Experience. It allows you to navigate through small applications as well as vast portals swiftly&quot;_. It was decided that the navigation bar would be used and placed towards the left-hand side like a drop-down menu as this would allow for a friendly user experience. It would also allow for more elements to be added in the future, whereas a nav bar in the header would only allow limited elements. As shown in code pen the navbar is limited however because of responsiveness more elements can still be added but would interfere with the page when resized.
+Many nav bars were looked and designs were analysed from[mdbootstrap](https://mdbootstrap.com/docs/jquery/navigation/sidenav/) and it mentions _&quot;By virtue of its clarity and simplicity it remarkably increases User Experience. It allows you to navigate through small applications as well as vast portals swiftly&quot;_. It was decided that the navigation bar would be used and placed towards the left-hand side like a drop-down menu as this would allow for a friendly user experience. It would also allow for more elements to be added in the future, whereas a nav bar in the header would only allow limited elements. As shown in code pen the navbar is limited however because of responsiveness more elements can still be added but would interfere with the page when resized.
 
 **NAVBAR CODE PEN**
 
-[https://codepen.io/hamzah90/pen/XwRvVY](Navbar experimentation)
+[ Navbar experimentation ]( https://codepen.io/hamzah90/pen/XwRvVY)
 
  As shown below the wireframe. Depending on the elements, the elements will be placed inside boxes and displayed underneath each other with details about the element underneath the boxes. This is similar to bootstrap cards; however, pure CSS will be used.
 
@@ -117,7 +117,7 @@ Building a 12column grid was simple and was experimented with so that it was sui
 
 Below is the code pen experimentation that took place:
 
-[https://codepen.io/hamzah90/pen/joyXqY](12 column grid experimentation)
+[ 12 column grid experimentation]( https://codepen.io/hamzah90/pen/joyXqY)
 
 
 
@@ -137,13 +137,13 @@ The buttons would need to be simplistic and unique, so adobe XD was used to desi
 
 This consisted on creating a footer element with social media icons, however the footer would need to be stuck at the bottom of the page. This was an issue but later it was discovered that to do this the position element in CSS would need to be fixed as when the footer div was tested with other positions such as relative, the footer wouldn&#39;t stick to the bottom of the page. The footer element would also be added to the library.
 
-[https://codepen.io/hamzah90/pen/GambWX](sticky footer experiment)
+[sticky footer experiment ](https://codepen.io/hamzah90/pen/GambWX)
 
 # Structure
 
 A basic structure would be required for each page, so a template was created in html which consisted with a simple header tag, nav tag, component tag and footer tag. These divs were styled in CSS, which allowed for the nav bar to be displayed to the left-hand side of the page and for the main section a component tag was created. The component tags were like panels and this is where information would be stored. Like a place holder for Information such as text and elements such as buttons. The component tag was made sure to be positioned in the middle of the page as well as being responsive. As shown below the panel has the whole header placed on it and doesn&#39;t fill up the whole page, allowing for the element to be viewed inside the div. Below is also code pen experimentation where the div was created and has a hover effect applied for a modern feel.
 
-[https://codepen.io/hamzah90/pen/gJWNyJ](structure panel)
+[structure panel](https://codepen.io/hamzah90/pen/gJWNyJ)
 
 
 
