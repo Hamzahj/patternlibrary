@@ -92,7 +92,7 @@ The specification for the pattern library was simple and didn&#39;t consist of m
 
 To start off the implementation process, a design phase was a requirement, as this would help visualise what the pattern library could possible look like. Simple wire frames would allow for this to be possible as wireframing techniques would give a clearer concept of how to build the library. Wire frames would determine and help plan where specific elements such as the navbar or instructions would go.
 
-Many nav bars were looked and designs were analysed from mdbootstrap  [https://mdbootstrap.com/docs/jquery/navigation/sidenav/](https://mdbootstrap.com/docs/jquery/navigation/sidenav/) and it mentions _&quot;By virtue of its clarity and simplicity it remarkably increases User Experience. It allows you to navigate through small applications as well as vast portals swiftly&quot;_. It was decided that the navigation bar would be used and placed towards the left-hand side like a drop-down menu as this would allow for a friendly user experience. It would also allow for more elements to be added in the future, whereas a nav bar in the header would only allow limited elements. As shown in code pen the navbar is limited and more elements cannot be added unless the navbar is vertical.
+Many nav bars were looked and designs were analysed from mdbootstrap  [https://mdbootstrap.com/docs/jquery/navigation/sidenav/](https://mdbootstrap.com/docs/jquery/navigation/sidenav/) and it mentions _&quot;By virtue of its clarity and simplicity it remarkably increases User Experience. It allows you to navigate through small applications as well as vast portals swiftly&quot;_. It was decided that the navigation bar would be used and placed towards the left-hand side like a drop-down menu as this would allow for a friendly user experience. It would also allow for more elements to be added in the future, whereas a nav bar in the header would only allow limited elements. As shown in code pen the navbar is limited however because of responsiveness more elements can still be added but would interfere with the page when resized.
 
 **NAVBAR CODE PEN**
 
@@ -162,8 +162,46 @@ The header tag would be where the navigation bar would be stored, in each page a
 
 # Conclusion
 
-Overall during the whole process of creating the pattern library, many issues were encountred but soon resolved. Some components stopped working as the whole process was being built on cloud9, an online service for coding. Cloud9 at times became buggy and stopped working, however despite this the overall pattern library was simple to build.
+Overall during the whole process of creating the pattern library, many issues were encountered but soon resolved. Some components stopped working as the whole process was being built on cloud9, an online service for coding. Cloud9 at times became buggy and stopped working, however despite this the overall pattern library was simple to build. Once this was completed, the was hosted on github pages. &quot;hamzahj.github.io&quot;
 
-6. Design, Planning, Experimentation &amp; Implementation – broken-down into subsections depending on project. Documentation Design Process &amp; Planning Experimentation – could be documented with CodePens, animated gifs/movie Documentation of construction of pattern library.
+Three people were asked simple questions about the completed pattern library and these answers were taken into consideration for future references and how it can be improved.
 
-7. Conclusion - Reflection user feedback and testing results
+**Is the library documentation simple to understand?**
+
+Participant 1: yes
+
+Participant 1: yes
+
+Participant 1: yes
+
+Participant 1: yes
+
+**Was it easy to download the files for your html pages?**
+
+Participant 1: yes
+
+Participant 1: yes
+
+Participant 1: yes
+
+Participant 1: yes
+
+**Did you find that adding the elements to your website were easy?**
+
+Participant 1: yes
+
+Participant 1: yes but the grid was slightly hard to implement
+
+Participant 1: yes
+
+Participant 1: yes
+
+**Was there anything you didn&#39;t like in the library?**
+
+Participant 1: No
+
+Participant 1: colour scheme
+
+Participant 1: No but would have liked if a sass file was there
+
+Participant 1: no
