@@ -205,3 +205,8 @@ Participant 1: colour scheme
 Participant 1: No but would have liked if a sass file was there
 
 Participant 1: no
+
+
+Github website link: hamzahj.github.io
+Github repository link : https://github.com/Hamzahj/patternlibrary
+
