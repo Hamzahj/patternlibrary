@@ -101,7 +101,7 @@ Many nav bars were looked and designs were analysed from[mdbootstrap](https://md
 
  As shown below the wireframe. Depending on the elements, the elements will be placed inside boxes and displayed underneath each other with details about the element underneath the boxes. This is similar to bootstrap cards; however, pure CSS will be used.
 
-![](images/image-2.jpg)
+![](images/2.png)
 
 
 
@@ -119,13 +119,13 @@ Below is the code pen experimentation that took place:
 
 [ 12 column grid experimentation]( https://codepen.io/hamzah90/pen/joyXqY)
 
-![](images/image-3.jpg)
+![](images/3.png)
 
 # Buttons
 
 The buttons would need to be simplistic and unique, so adobe XD was used to design a simplistic button that would cater to the needs of modern users. The buttons designs would be expanded on as well as simultaneously having the effect of a modern design. Below is the simplistic button that will be used when implementing the library. The button will have rounded edges, and this will be achieved using the border radius option on a normal button. The design will also have the potential to be expanded due to its default look. Colours and animations can be added to make multiple unique buttons. Opacity and hover effects will give off more modern feel to the buttons.
 
-![](images/image-4.jpg)
+![](images/4.png)
 
 
 
@@ -145,8 +145,7 @@ A basic structure would be required for each page, so a template was created in 
 
 [structure panel](https://codepen.io/hamzah90/pen/gJWNyJ)
 
-
-![](images/image-5.jpg)
+![](images/5.png)
 
 
 
