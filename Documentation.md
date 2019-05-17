@@ -170,25 +170,47 @@ Overall during the whole process of creating the pattern library, many issues we
 
 Four people were asked simple questions about the completed pattern library and these answers were taken into consideration for future references and how it can be improved.
 Is the library documentation simple to understand? 
+
 Participant 1: yes
+
 Participant 2: yes
+
 Participant 3: yes 
+
 Participant 4: yes
+
 Was it easy to download the files for your html pages?
+
 Participant 1: yes
+
 Participant 2: yes
+
 Participant 3: yes 
+
 Participant 4: yes
+
 Did you find that adding the elements to your website were easy?
+
 Participant 1: yes
+
 Participant 2: yes but the grid was slightly hard to implement
+
 Participant 3: yes
+
 Participant 4: yes
 
 Was there anything you didn’t like in the library?
+
 Participant 1: No
+
 Participant 2: colour scheme 
+
 Participant 3: No but would have liked if a sass file was there
+
 Participant 4: no
+
+
+
+
 
 
