@@ -1,5 +1,5 @@
 # Pattern library
-
+[Quora profile link for Adam D'Angelo](http://www.quora.com/Adam-DAngelo)
 ## Background
 
 Pattern libraries are libraries that have a myriad of UI elements which can be applied into a user&#39;s website. They normally consist of specified visual elements such as navbars, header elements, button types, jumbotron and footers. Pattern libraries are merely, frameworks and are comparable to well known frameworks such as bootstrap, which specialize in visual elements. Pattern libraries can save users a various amount of time, as it allows for users to already have elements pre-made for them. Users can apply these visual elements to their websites allowing them to be more efficient when producing their websites.
