@@ -364,53 +364,6 @@ h5{
 
 
 
-.jumbatron{
-  background-color: #6bff92;
-  border-color: black;
-   border-radius: 10px;
-  height: 200px;
-  width: 700px;
-  margin-left: 150px;
-  position: absolute;
-  
-}
-
-
-
-button {
-  color: white;
-  background: black;
-
-  border-width: 3px;
-  border-style: none none solid;
-  box-shadow: none;
-  cursor: pointer;
-  font-size: 18px;
-  width: 90%;
-  outline: none;
-  margin-right: 5%;
-  margin-left: 5%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-}
-
-button:hover{
-  background: grey;
-}
-
-.inputs{
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 1%;
-  border-color: #eee;
-  border-width: 3px;
-  border-style: none none solid;;
-  border-radius: 3px;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  margin-bottom: 5px;
-}
 
 
 
